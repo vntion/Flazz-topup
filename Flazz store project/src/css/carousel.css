@@ -1,29 +1,40 @@
 *,
 *::before,
-*::after{
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: inherit;
 }
 
-body{
-  box-sizing: border-box;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.slider{
+html {
+  font-size: 62.5%;
+  background: var(--color-bg);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  min-height: 10vh;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.4;
+}
+
+main.slider {
   flex: 0 0 70%;
   height: 100%;
   display: flex;
-/*   background-color: #eee; */
   position: relative;
   overflow: hidden;
 }
 
-.slide{
+.slide {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -34,14 +45,14 @@ body{
   align-items: center;
 }
 
-.content{
+.content {
   width: 70%;
   height: 90%;
   background-color: var(--c);
   border-radius: 10px;
 }
 
-.btn{
+.btn {
   position: absolute;
   border: none;
   top: 50%;
@@ -49,17 +60,16 @@ body{
   border-radius: 500px;
   width: 57.25px;
   height: 100px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   font-size: 25px;
   cursor: pointer;
   z-index: 100;
 }
 
-.btn--right{
-  right: 60px;
+.btn--right {
+  right: 155px;
 }
 
-.btn--left{
-  left: 60px;
+.btn--left {
+  left: 155px;
 }
-
