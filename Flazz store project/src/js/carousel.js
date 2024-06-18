@@ -1,19 +1,26 @@
-var slider = document.querySelector('.slider');
-var images = ['carousel1.jpg', 'carousel2.jpg', 'carousel3.jpg']
-var i = 0;
+const slides = document.querySelectorAll('.slide');
+const btnRight = document.querySelector('.btn--right');
+const btnLeft = document.querySelector('.btn--left');
 
-function prev(){
-    if(i <= 0) i = images.length;
-    i--;
-    return setImg();
+let curSlide = 0;
+const maxSlide = slides.length;
+
+const goToSlide = function(slide){
+  slides.forEach((s, i) => s.style.transform = `translateX(${100 * (i - slide)}%)`);
+}
+goToSlide(0);
+
+const nextSlide = function() {
+  if (curSlide === maxSlide - 1) curSlide = 0;
+  else curSlide++;
+  goToSlide(curSlide);
 }
 
-function next(){
-    if(i >= images.length - 1) i = -1;
-    i++;
-    return setImg();
+const prevSlide = function(){
+  if (curSlide === 0) curSlide = maxSlide - 1;
+  else curSlide--;
+  goToSlide(curSlide);
 }
 
-function setImg(){
-    return slide_img.setAttribute('src', 'images/' + images[i]);
-}
+btnRight.addEventListener('click', nextSlide);
+btnLeft.addEventListener('click', prevSlide);
