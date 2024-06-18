@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&display=swap");
+:root {
+  --color-bg: #121626;
+  --color-main: #763edd;
+  --color-secondary: #242c48;
+  --color-tertiary: #303b61;
+}
 
 * {
   margin: 0;
@@ -8,12 +14,16 @@
 
 html {
   font-size: 62.5%;
+  background: var(--color-bg);
 }
 
 body {
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
   min-height: 100vh;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.4;
 }
 
 nav {
@@ -64,7 +74,7 @@ nav .navbar .menu {
 }
 .navbar .menu li a:hover {
   border-bottom: 2.5px solid #763edd;
-  padding-bottom: 16.5px;
+  padding-bottom: 14px;
 }
 
 nav .button-box {
