@@ -43,15 +43,149 @@
             </ol>
           </div>
         </div>
-        <form class="topup__form">
-          <div class="topup__data">
-            <div class="topup__data-top"></div>
+
+        <form class="form">
+          <div class="form__row">
+            <div class="form__top">
+              <span class="form__top--num">1</span>
+              <span class="form__top--name">Enter your Account Data</span>
+            </div>
+            <div class="form__content">
+              <label for="id" class="form__label">ID</label>
+              <input type="number" class="form__input" min="0" required />
+            </div>
           </div>
-          <div class="topup__buy"></div>
-          <div class="topup__qty"></div>
-          <div class="topup__payment"></div>
-          <div class="toptup__promocode"></div>
-          <div class="toptup__cart"></div>
+
+          <div class="form__row">
+            <div class="form__top">
+              <span class="form__top--num">2</span>
+              <span class="form__top--name"
+                >Select the Nominal You Want to Buy</span
+              >
+            </div>
+            <div class="form__content">
+              <div class="form__items">
+                <div class="form__items--title">Select One:</div>
+                <br />
+                <div class="form__items--list"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="form__top">
+              <span class="form__top--num">3</span>
+              <span class="form__top--name">Enter the Total Quantity</span>
+            </div>
+            <div class="form__content">
+              <div class="form__content--row">
+                <input
+                  type="number"
+                  class="form__input--qty"
+                  min="0"
+                  value="1"
+                />
+                <button class="form__qty-btn">&plus;</button>
+                <button class="form__qty-btn form__qty-btn--noactive">
+                  &minus;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="form__top">
+              <span class="form__top--num">4</span>
+              <span class="form__top--name"
+                >Select the Payment You Want to Use</span
+              >
+            </div>
+            <div class="form__content">
+              <div class="form__payment form__payment--selected">
+                <div class="form__payment--method">E-Wallet</div>
+                <div class="form__payment--photo">
+                  <img src="../img/Dokuwallet.jpg" alt="Dokuwallet" /><img
+                    src="../img/Gopay.jpg"
+                    alt="Gopay"
+                  /><img src="../img/Isaku.jpg" alt="Isaku" /><img
+                    src="../img/Linkaja.jpg"
+                    alt="Linkaja"
+                  /><img
+                    src="../img/Logo OVO - eWallet - Download File Vector PNG 1.jpg"
+                    alt="Ovo"
+                  /><img src="../img/Logo_dana_blue 1.jpg" alt="Dana" /><img
+                    src="../img/Shopeepay.jpg"
+                    alt="Shopeepay"
+                  />
+                </div>
+              </div>
+              <div class="form__payment">
+                <div class="form__payment--method">Virtual Account</div>
+                <div class="form__payment--photo">
+                  <img src="../img/BNI.png" alt="BNI" /><img
+                    src="../img/BRI.png"
+                    alt="BRI"
+                  /><img src="../img/BRIVA.png" alt="BRIVA" /><img
+                    src="../img/BSI.png"
+                    alt="BSI"
+                  /><img src="../img/Mandiri.png" alt="Mandiri" /><img
+                    src="../img/Sinarmas.png"
+                    alt="Sinarmas"
+                  />
+                </div>
+              </div>
+              <div class="form__payment">
+                <div class="form__payment--method">Convenience Store</div>
+                <div class="form__payment--photo">
+                  <img src="../img/Alfamart.png" alt="" Alfamart /><img
+                    src="../img/Indomaret.png"
+                    alt="Indomaret"
+                  /><img src="../img/Lawson.png" alt="Lawson" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="form__top">
+              <span class="form__top--num">5</span>
+              <span class="form__top--name">Enter the Total Quantity</span>
+            </div>
+            <div class="form__content">
+              <div class="form__content--row">
+                <input
+                  type="text"
+                  class="form__input--promo"
+                  min="0"
+                  placeholder="Type your promo code"
+                />
+                <button class="form__btn--apply">Apply</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form__row form__row-cart">
+            <div class="form__cart">
+              <!-- <span>There are no selected product items yet.</span> -->
+              <div class="form__cart-item">
+                <img src="../img/unnamed.png" alt="IMg" />
+                <div class="form__cart-details">
+                  <div class="form__cart-details--row">
+                    <span class="cart__nominal">600 diamonds</span>
+                    &times;
+                    <span class="cart__qty">1 Qty</span>
+                  </div>
+
+                  <div class="form__cart-details--row">
+                    <span class="cart__price">Rp 90.000</span>
+                    &hyphen;
+                    <span class="cart__payment-method">E-wallet</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn-submit">Order Now!</button>
+          </div>
         </form>
       </div>
     </main>
