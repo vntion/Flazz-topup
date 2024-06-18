@@ -32,7 +32,7 @@ nav {
   top: 0;
   width: 100%;
   height: 50px;
-  background: #242c48;
+  background: var(--color-secondary);
   display: flex;
 }
 .logo-flazz {
@@ -43,7 +43,7 @@ nav {
   display: flex;
   color: #fff;
   font-size: 14px;
-  padding: 0 10px;
+  padding: 0 50px;
 }
 .logo-name {
   width: 85px;
@@ -55,7 +55,7 @@ nav .navbar {
   justify-content: space-between;
   height: 100%;
   max-width: 90%;
-  background: #242c48;
+  background: var(--color-secondary);
   margin: auto;
 }
 nav .navbar .menu {
@@ -63,21 +63,23 @@ nav .navbar .menu {
 }
 .navbar .menu li {
   list-style: none;
-  margin: 0 35px;
+  margin: 0 20px;
 }
 .navbar .menu li a {
   color: #fff;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 400;
   text-decoration: none;
   letter-spacing: 1.5px;
+  padding: 14px 5px;
 }
 .navbar .menu li a:hover {
-  border-bottom: 2.5px solid #763edd;
-  padding-bottom: 14px;
+  border-bottom: 2.5px solid var(--color-main);
+  padding: 14px 5px;
 }
 
 nav .button-box {
+  padding: 0 50px;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -85,14 +87,14 @@ nav .button-box {
 
 button {
   border: none;
-  padding: 5px 20px;
-  font-size: 10px;
+  padding: 5px 25px;
+  font-size: 9px;
   border-radius: 5px;
   align-items: center;
   color: #fff;
 }
 .login-button {
-  background-color: #763edd;
+  background-color: var(--color-main);
 }
 .search-button {
   background-color: transparent;
@@ -100,7 +102,7 @@ button {
 }
 
 .login-button:hover {
-  background-color: #763edd;
+  background-color: var(--color-main);
   opacity: 75%;
 }
 .search-button:hover {
