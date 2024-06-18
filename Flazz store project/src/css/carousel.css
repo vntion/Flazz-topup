@@ -1,0 +1,25 @@
+.images {
+    display: flex;
+    width: 100%;
+}
+.wrapper {
+    width: 1278px;
+    height: 566px;
+    margin: 0 auto;
+    border-radius: 20px ;
+    overflow: hidden;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: ;
+    padding: ;
+    color: ;
+    cursor: pointer;
+    margin : auto;
+}
+
+.btn:hover {
+    background: #111;
+}
