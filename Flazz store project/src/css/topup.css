@@ -4,6 +4,7 @@
   --color-main: #763edd;
   --color-secondary: #242c48;
   --color-tertiary: #303b61;
+  --color-input: #aaacb3;
 }
 
 * {
@@ -72,19 +73,25 @@ body {
   padding: 2rem;
   display: flex;
   border-radius: 1rem;
+  position: relative;
+  overflow: visible;
 }
 
+/* Cara topup */
 .topup__cara {
   flex: 0 0 40rem;
-  margin-right: 2rem;
+  margin-right: 3.5rem;
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 2rem;
+  align-self: start;
 }
 
 .topup__text {
   background: var(--color-secondary);
   border-radius: 0.7rem;
-  padding: 0.8rem 1rem;
+  padding: 1.2rem;
   margin-bottom: 1rem;
   color: #fff;
   border: none;
@@ -94,18 +101,224 @@ body {
 
 .topup__step {
   background: #303b61;
-  padding: 0.8rem 1rem;
+  padding: 1.2rem;
   border-radius: 1rem;
 }
 
 .topup__step-text {
-  margin-bottom: 2rem;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .topup__step-list {
   padding-left: 2rem;
 }
 
-.topup__form {
+.form {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form__row {
+  margin-bottom: 3rem;
+  overflow: hidden;
+  border-radius: 0.7rem;
+  background: var(--color-tertiary);
+}
+
+.form__top {
+  background: var(--color-secondary);
+}
+
+.form__top--num {
+  background: var(--color-main);
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin-right: 1rem;
+}
+
+.form__top--name {
+  font-weight: 700;
+}
+
+.form__content {
+  padding: 4rem 1.5rem 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__content--row {
+  display: flex;
+  gap: 1rem;
+}
+.form__label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-top: -1rem;
+}
+
+.form__input {
+  border: none;
+  padding: 0.8rem 1rem;
+  background: var(--color-input);
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  max-width: 50rem;
+}
+
+.form__input--qty {
+  border: none;
+  padding: 0.8rem 1rem;
+  background: var(--color-input);
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  flex: 0 0 85%;
+}
+
+.form__input:focus,
+.form__input--qty:focus {
+  outline: 2.5px solid var(--color-main);
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Items topup */
+.form__items--title {
+  margin-top: -2rem;
+}
+
+/* Quantity */
+.form__qty-btn {
+  background: var(--color-main);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  flex: 1;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.form__qty-btn--noactive {
+  cursor: auto;
+  background: rgba(118, 62, 221, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Select Payment */
+.form__payment {
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.form__payment--selected {
+  outline-offset: 0.3rem;
+  outline: 3px solid var(--color-main);
+  /* box-shadow: 0 0 2rem rgba(118, 62, 221, 0.6), 0 0 3rem rgba(118, 62, 221, 0.6),
+    0 0 4rem rgba(118, 62, 221, 0.6); */
+  /* box-shadow: 0 0 1rem rgba(255, 255, 255, 0.3), 0 0 2rem rgba(255, 255, 255, 0.3); */
+}
+
+.form__payment:hover {
+  outline-offset: 0.3rem;
+  outline: 3px solid var(--color-main);
+}
+
+.form__payment:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.form__payment--method {
+  background: #7a7a7a;
+  padding: 1rem;
+}
+
+.form__payment--photo {
+  background: #fff;
+  display: flex;
+  padding: 0.6rem;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+}
+
+.form__payment--photo img {
+  display: block;
+  height: 4rem;
+}
+
+/* Promo code */
+.form__input--promo {
+  border: none;
+  padding: 0.8rem 1rem;
+  background: var(--color-input);
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  flex: 0 0 90%;
+  outline: none;
+}
+
+.form__btn--apply {
+  border: none;
+  background: var(--color-main);
+  font-weight: 600;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/* cart */
+.form__row-cart {
+  background: none !important;
+  border-radius: 0 !important;
+  position: sticky;
+  bottom: 1.5rem;
+  background-color: var(--color-bg) !important;
+}
+
+.form__cart {
+  border: 1px dashed rgba(255, 255, 255, 0.4);
+  border-radius: 7px;
+  padding: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.form__cart span {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.form__cart-item {
+  display: flex;
+  align-items: center;
+}
+
+.form__cart-item img {
+  display: block;
+  width: 7rem;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+.btn-submit {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  background: var(--color-main);
+  color: #fff;
+  padding: 1rem 0;
+  cursor: pointer;
 }
