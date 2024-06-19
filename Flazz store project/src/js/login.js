@@ -8,6 +8,7 @@ const inputTypeToggle = function () {
   type === 'password' ? (type = 'text') : (type = 'password');
 
   inputPassword.type = type;
+  inputPassword.focus();
 };
 
 iconEye.forEach(icon => icon.addEventListener('click', inputTypeToggle));
