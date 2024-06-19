@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&display=swap');
+:root {
+  --color-bg: #121626;
+  --color-main: #763edd;
+  --color-secondary: #242c48;
+  --color-tertiary: #303b61;
+  --color-input: #aaacb3;
+  --color-input: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  background: var(--color-bg);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ebebeb;
+  max-width: 33rem;
+  width: 100%;
+  padding: 2rem 1.4rem;
+  border-radius: 5px;
+}
+
+.form__row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+}
+
+.form__row:first-child {
+  margin-bottom: 2rem;
+}
+
+.form__label {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.form__input {
+  border: none;
+  outline: none;
+  background: var(--color-input);
+  border-radius: 4px;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.form__input-icon {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 1%;
+  top: 60%;
+  fill: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  z-index: 1000;
+  background: #d9d9d9;
+}
+
+.form__input-icon.hidden {
+  display: none;
+}
+
+.remember {
+  margin-top: 0.5rem;
+}
+
+.remember input {
+  display: none;
+}
+
+.remember input:checked + label .checkbox-btn {
+  background-color: var(--color-main);
+  border: none;
+}
+
+.remember input:checked + label .checkbox-btn::after {
+  opacity: 1;
+}
+
+.remember label {
+  font-size: 1.1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.checkbox-btn {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: relative;
+}
+
+.checkbox-btn::after {
+  content: '\2714';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.7rem;
+  color: #fff;
+  opacity: 0;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: var(--color-main);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
