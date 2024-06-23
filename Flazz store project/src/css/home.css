@@ -80,8 +80,8 @@ nav .navbar .menu {
   font-size: 12px;
   font-weight: 400;
   text-decoration: none;
-  padding: 14px 5px;
-  transition: padding 0.3s, border-bottom 0.3s;
+  padding: 12px 5px;
+  transition: padding 0.3s, border-bottom 0.2s;
 }
 
 .navbar .menu li a:hover {
@@ -128,12 +128,13 @@ button {
   display: flex;
   position: relative;
   overflow: hidden;
-  height: 40rem;
-  max-width: 60rem;
+  height: 60rem;
+  max-width: 1000rem;
 }
 
 .slide {
-  height: 40rem;
+  padding: 5rem 15rem;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
@@ -160,19 +161,19 @@ button {
   top: 50%;
   transform: translateY(-50%);
   border: none;
-  border-radius: 500px;
+  border-radius: 10rem;
   width: 57.25px;
-  height: 100px;
-  background-color: #d9d9d9;
-  font-size: 25px;
+  height: 10rem;
+  background-color: var(--color-tertiary);
+  font-size: 2.5rem;
   cursor: pointer;
   z-index: 100;
 }
 
 .btn--right {
-  right: 155px;
+  right: 17.7rem;
 }
 
 .btn--left {
-  left: 155px;
+  left: 17.7rem;
 }
