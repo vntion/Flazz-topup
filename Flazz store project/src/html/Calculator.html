@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/Calculator.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="headline">
+          <h1>Cek Winrate anda !</h1>
+          <h3>
+            Hitung winrate impian anda, dengan mengetahui total match yang
+            diperlukan untuk mencapainya.
+          </h3>
+        </div>
+        <div class="input-bar">
+          <form action="" class="form">
+            <div class="form-row">
+              <label for="total-match">Total Match anda saat ini</label>
+              <input
+                type="number"
+                name="total-match"
+                id="total-match"
+                placeholder="Contoh: 111"
+              />
+            </div>
+            <div class="form-row">
+              <label for="jumlah-match">Jumlah Winrate Anda Saat ini </label>
+              <input
+                type="number"
+                name="jumlah-match"
+                id="jumlah-match"
+                placeholder="Contoh: 59"
+              />
+            </div>
+            <div class="form-row">
+              <label for="winrate">Winrate yang diinginkan</label>
+              <input
+                type="number"
+                name="winrate"
+                id="winrate"
+                placeholder="Contoh: 70"
+              />
+            </div>
+          </form>
+          <button>Calculate</button>
+        </div>
+        <div class="result">
+          <div class="text-result">
+            You need ### win without lose to get a ##% Winrate
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

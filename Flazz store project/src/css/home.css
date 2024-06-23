@@ -28,7 +28,7 @@ body {
 }
 
 nav {
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   width: 100%;
@@ -124,15 +124,16 @@ button {
   opacity: 75%;
 }
 
-main.slider {
+.slider {
   display: flex;
   position: relative;
   overflow: hidden;
-  height: 100%;
+  height: 40rem;
+  max-width: 60rem;
 }
 
 .slide {
-  height: 100%;
+  height: 40rem;
   width: 100%;
   position: absolute;
   top: 0;
@@ -147,6 +148,11 @@ main.slider {
   height: 90%;
   background-color: var(--color-tertiary);
   border-radius: 10px;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .btn {
