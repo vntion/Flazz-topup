@@ -133,7 +133,7 @@ button {
   position: relative;
   overflow: hidden;
   height: 60rem;
-  max-width: 1000rem;
+  max-width: 200rem;
 }
 
 .slide {
@@ -437,15 +437,15 @@ button {
 }
 .row{
 	display: flex;
-    gap: 100px;
-	left: 493px;
-    position: relative;
-    top: 50px;
+  gap: 100px;
+	right: 90px;
+  position: relative;
+  top: 50px;
 }
 .footerICON{
-    display: flex;
+  display: flex;
 	position: relative;
-	right: 100px;
+	right: 315px;
 	width: 500px;
 }
 ul{
@@ -460,7 +460,7 @@ ul{
 }
 .footer-col h4{
 	display: flex;
-	font-size: 30px;
+	font-size: 18px;
 	color: #763EDD;
 	margin-bottom: 60px;
 	justify-content: center;
@@ -471,7 +471,7 @@ ul{
 }
 .footer-col ul li a{
 	display: flex;
-	font-size: 20px;
+	font-size: 12px;
 	text-transform: capitalize;
 	justify-content: center;
 	text-decoration: none;
@@ -491,21 +491,21 @@ ul{
 }
 .footer-collast h4{
 	display: flex;
-	font-size: 30px;
+	font-size: 18px;
 	justify-content: center;
 	text-decoration: none;
 	position: relative;
-	left: 400px;
+	right: -230px;
 	font-weight: 500;
 	color: #894afd;
 	transition: all 0.3s ease;
 }
 .footer-collast ul li{
 	display: inline-block;
-    margin-right: 10px;
 	position: relative;
-	left: 150px;
-	bottom: 50px;
+	left: -55px;
+	bottom: 75px;
+  padding: 10px;
 }
 .footerbot{
 	color: #FFFFFF;
@@ -515,10 +515,10 @@ ul{
 .line1{
 	display: flex;
 	position: relative;
-	left: 50px;
+	left: -280px;
 }
 .line2{
 	display: flex;
 	position: relative;
-	left: 328px;
+	right: 290px;
 }
