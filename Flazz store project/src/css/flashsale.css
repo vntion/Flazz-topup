@@ -17,7 +17,7 @@ body {
   width: 1400px;
   height: 632px;
   flex-direction: column;
-  background-image: url(../img/background.png);
+  background-image: url(src/img/background.png);
   background-color: #242c48;
   border-radius: 20px;
 }

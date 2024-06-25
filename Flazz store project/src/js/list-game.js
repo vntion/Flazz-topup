@@ -2,12 +2,12 @@
 const data = [
   {
     id: 1,
-    nama: 'Mobile Legends: Bang Bang',
-    perusahaan: 'Moonton',
-    satuan: 'Diamonds',
-    image: '../img/ML.jpg',
-    background: '../img/Bg-ML.jpg',
-    itemImage: '../img/Diamond.png',
+    nama: "Mobile Legends: Bang Bang",
+    perusahaan: "Moonton",
+    satuan: "Diamonds",
+    image: "../img/ML.jpg",
+    background: "../img/Bg-ML.jpg",
+    itemImage: "../img/Diamond.png",
     nominal: [
       {
         jumlah: 100,
@@ -45,12 +45,12 @@ const data = [
   },
   {
     id: 2,
-    nama: 'Free Fire',
-    perusahaan: 'Garena',
-    satuan: 'Diamonds',
-    image: '../img/FF.png',
-    background: '../img/Bg-FF.jpg',
-    itemImage: '../img/Freefire_diamonds.png',
+    nama: "Free Fire",
+    perusahaan: "Garena",
+    satuan: "Diamonds",
+    image: "../img/FF.png",
+    background: "../img/Bg-FF.jpg",
+    itemImage: "../img/Freefire_diamonds.png",
     nominal: [
       {
         jumlah: 100,
@@ -80,12 +80,12 @@ const data = [
   },
   {
     id: 3,
-    nama: 'PUBG Mobile',
-    perusahaan: 'PUBG Corporation',
-    satuan: 'Unknown Cash (UC)',
-    image: '../img/PUBGM.jpg',
-    background: '../img/Bg-PUBGM.jpg',
-    itemImage: '../img/PUBGM-UC.png',
+    nama: "PUBG Mobile",
+    perusahaan: "PUBG Corporation",
+    satuan: "Unknown Cash (UC)",
+    image: "../img/PUBGM.jpg",
+    background: "../img/Bg-PUBGM.jpg",
+    itemImage: "../img/PUBGM-UC.png",
     nominal: [
       {
         jumlah: 60,
@@ -115,12 +115,12 @@ const data = [
   },
   {
     id: 4,
-    nama: 'Genshin Impact',
-    perusahaan: 'miHoYo',
-    satuan: 'Genesis Crystals',
-    image: '../img/Genshin.webp',
-    background: '../img/Bg-Genshin.webp',
-    itemImage: '../img/Genshin-Diamond.png',
+    nama: "Genshin Impact",
+    perusahaan: "miHoYo",
+    satuan: "Genesis Crystals",
+    image: "../img/Genshin.webp",
+    background: "../img/Bg-Genshin.webp",
+    itemImage: "../img/Genshin-Diamond.png",
     nominal: [
       {
         jumlah: 60,
@@ -150,12 +150,12 @@ const data = [
   },
   {
     id: 5,
-    nama: 'Call of Duty: Mobile',
-    perusahaan: 'Activision',
-    satuan: 'CP (Call of Duty Points)',
-    image: '../img/CODM.webp',
-    background: '../img/Bg-CODM.jpg',
-    itemImage: '../img/CallofDuty_CP.png',
+    nama: "Call of Duty: Mobile",
+    perusahaan: "Activision",
+    satuan: "CP (Call of Duty Points)",
+    image: "../img/CODM.webp",
+    background: "../img/Bg-CODM.jpg",
+    itemImage: "../img/CallofDuty_CP.png",
     nominal: [
       { jumlah: 80, harga: 990 },
       {
@@ -182,12 +182,12 @@ const data = [
   },
   {
     id: 6,
-    nama: 'Honkai Impact 3rd',
-    perusahaan: 'miHoYo',
-    satuan: 'Crystals',
-    image: '../img/Honkai.webp',
-    background: '../img/Bg-Honkai.png',
-    itemImage: '../img/Honkai-crystal.png',
+    nama: "Honkai Impact 3rd",
+    perusahaan: "miHoYo",
+    satuan: "Crystals",
+    image: "../img/Honkai.webp",
+    background: "../img/Bg-Honkai.png",
+    itemImage: "../img/Honkai-crystal.png",
     nominal: [
       {
         jumlah: 60,
@@ -217,12 +217,12 @@ const data = [
   },
   {
     id: 7,
-    nama: 'Clash of Clans',
-    perusahaan: 'Supercell',
-    satuan: 'Gems',
-    image: '../img/Coc.jpg',
-    background: '../img/Bg-coc.jpg',
-    itemImage: '../img/Coc_gems.png',
+    nama: "Clash of Clans",
+    perusahaan: "Supercell",
+    satuan: "Gems",
+    image: "../img/Coc.jpg",
+    background: "../img/Bg-coc.jpg",
+    itemImage: "../img/Coc_gems.png",
     nominal: [
       {
         jumlah: 500,
@@ -252,12 +252,12 @@ const data = [
   },
   {
     id: 8,
-    nama: 'Clash Royale',
-    perusahaan: 'Supercell',
-    satuan: 'Gems',
-    image: '../img/CR.jpg',
-    background: '../img/Bg-Cr.jpg',
-    itemImage: '../img/CR_Gems.png',
+    nama: "Clash Royale",
+    perusahaan: "Supercell",
+    satuan: "Gems",
+    image: "../img/CR.jpg",
+    background: "../img/Bg-Cr.jpg",
+    itemImage: "../img/CR_Gems.png",
     nominal: [
       { jumlah: 80, harga: 10000 },
       { jumlah: 170, harga: 20000 },
@@ -269,12 +269,12 @@ const data = [
   },
   {
     id: 9,
-    nama: 'Arena of Valor (AOV)',
-    perusahaan: 'Tencent Games',
-    satuan: 'Vouchers',
-    image: '../img/AOV.jpg',
-    background: '../img/Bg-AOV.jpg',
-    itemImage: '../img/AOV_Voucher.png',
+    nama: "Arena of Valor (AOV)",
+    perusahaan: "Tencent Games",
+    satuan: "Vouchers",
+    image: "../img/AOV.jpg",
+    background: "../img/Bg-AOV.jpg",
+    itemImage: "../img/AOV_Voucher.png",
     nominal: [
       { jumlah: 50, harga: 10000 },
       { jumlah: 100, harga: 20000 },
@@ -285,12 +285,12 @@ const data = [
   },
   {
     id: 10,
-    nama: 'FIFA Mobile',
-    perusahaan: 'EA Sports',
-    satuan: 'FIFA Points',
-    image: '../img/FIFA.jpg',
-    background: '../img/Bg-FIFA.jpg',
-    itemImage: '../img/FIFA_P.png',
+    nama: "FIFA Mobile",
+    perusahaan: "EA Sports",
+    satuan: "FIFA Points",
+    image: "../img/FIFA.jpg",
+    background: "../img/Bg-FIFA.jpg",
+    itemImage: "../img/FIFA_P.png",
     nominal: [
       { jumlah: 500, harga: 10000 },
       { jumlah: 1050, harga: 20000 },
@@ -301,12 +301,12 @@ const data = [
   },
   {
     id: 11,
-    nama: 'Garena Speed Drifters',
-    perusahaan: 'Garena',
-    satuan: 'Diamonds',
-    image: '../img/Speedrifter.jpg',
-    background: '../img/Bg-speed.jpg',
-    itemImage: '../img/SPEEDDRIFTERS_Diamonds.png',
+    nama: "Garena Speed Drifters",
+    perusahaan: "Garena",
+    satuan: "Diamonds",
+    image: "../img/Speedrifter.jpg",
+    background: "../img/Bg-speed.jpg",
+    itemImage: "../img/SPEEDDRIFTERS_Diamonds.png",
     nominal: [
       { jumlah: 120, harga: 10000 },
       { jumlah: 250, harga: 20000 },
@@ -317,12 +317,12 @@ const data = [
   },
   {
     id: 12,
-    nama: 'Ragnarok M: Eternal Love',
-    perusahaan: 'Gravity Interactive',
-    satuan: 'Big Cat Coins',
-    image: '../img/Ragnarok M_Eternal Love_logo.png',
-    background: '../img/Ragnarok M_Eternal Love_BG.jpg',
-    itemImage: '../img/ROM_coins.png',
+    nama: "Ragnarok M: Eternal Love",
+    perusahaan: "Gravity Interactive",
+    satuan: "Big Cat Coins",
+    image: "../img/Ragnarok M_Eternal Love_logo.png",
+    background: "../img/Ragnarok M_Eternal Love_BG.jpg",
+    itemImage: "../img/ROM_coins.png",
     nominal: [
       { jumlah: 60, harga: 10000 },
       { jumlah: 300, harga: 50000 },
@@ -333,12 +333,12 @@ const data = [
   },
   {
     id: 13,
-    nama: 'Laplace M',
-    perusahaan: 'ZlongGames',
-    satuan: 'Diamonds',
-    image: '../img/Laplace M_logo.png',
-    background: '../img/Laplace M_BG.png',
-    itemImage: '',
+    nama: "Laplace M",
+    perusahaan: "ZlongGames",
+    satuan: "Diamonds",
+    image: "../img/Laplace M_logo.png",
+    background: "../img/Laplace M_BG.png",
+    itemImage: "",
     nominal: [
       { jumlah: 100, harga: 10000 },
       { jumlah: 300, harga: 30000 },
@@ -348,12 +348,12 @@ const data = [
   },
   {
     id: 14,
-    nama: 'Rise of Kingdoms',
-    perusahaan: 'Lilith Games',
-    satuan: 'Gems',
-    image: '../img/Rise of Kingdoms_logo.png',
-    background: '../img/Rise of Kingfoms__BG2.png',
-    itemImage: '',
+    nama: "Rise of Kingdoms",
+    perusahaan: "Lilith Games",
+    satuan: "Gems",
+    image: "../img/Rise of Kingdoms_logo.png",
+    background: "../img/Rise of Kingfoms__BG2.png",
+    itemImage: "",
     nominal: [
       { jumlah: 600, harga: 10000 },
       { jumlah: 1200, harga: 20000 },
@@ -363,12 +363,12 @@ const data = [
   },
   {
     id: 15,
-    nama: 'Dragon Raja',
-    perusahaan: 'Archosaur Games',
-    satuan: 'Gems',
-    image: '../img/Dragon Raja_logo.png',
-    background: '../img/Dragon Raja_BG2.png',
-    itemImage: '',
+    nama: "Dragon Raja",
+    perusahaan: "Archosaur Games",
+    satuan: "Gems",
+    image: "../img/Dragon Raja_logo.png",
+    background: "../img/Dragon Raja_BG2.png",
+    itemImage: "",
     nominal: [
       { jumlah: 300, harga: 10000 },
       { jumlah: 680, harga: 20000 },
@@ -378,12 +378,12 @@ const data = [
   },
   {
     id: 16,
-    nama: 'State of Survival',
-    perusahaan: 'KingsGroup Holdings',
-    satuan: 'Biocaps',
-    image: '../img/State of Survival_logo.png',
-    background: '../img/State of Survival_BG2.png',
-    itemImage: '../img/SOS_diamond.png',
+    nama: "State of Survival",
+    perusahaan: "KingsGroup Holdings",
+    satuan: "Biocaps",
+    image: "../img/State of Survival_logo.png",
+    background: "../img/State of Survival_BG2.png",
+    itemImage: "../img/SOS_diamond.png",
     nominal: [
       { jumlah: 500, harga: 10000 },
       { jumlah: 1100, harga: 20000 },
@@ -393,12 +393,12 @@ const data = [
   },
   {
     id: 17,
-    nama: 'Brawl Stars',
-    perusahaan: 'Supercell',
-    satuan: 'Gems',
-    image: '../img/Brawl Stars_logo.png',
-    background: '../img/Brawl Stars_BG2.png',
-    itemImage: '../img/BrawlStars_Gems.png',
+    nama: "Brawl Stars",
+    perusahaan: "Supercell",
+    satuan: "Gems",
+    image: "../img/Brawl Stars_logo.png",
+    background: "../img/Brawl Stars_BG2.png",
+    itemImage: "../img/BrawlStars_Gems.png",
     nominal: [
       { jumlah: 80, harga: 10000 },
       { jumlah: 170, harga: 20000 },
@@ -408,12 +408,12 @@ const data = [
   },
   {
     id: 18,
-    nama: 'Lineage 2: Revolution',
-    perusahaan: 'Netmarble',
-    satuan: 'Red Diamonds',
-    image: '../img/Lineage 2_Revolution_logo.png',
-    background: '../img/Lineage 2_Revolution_BG2.png',
-    itemImage: '',
+    nama: "Lineage 2: Revolution",
+    perusahaan: "Netmarble",
+    satuan: "Red Diamonds",
+    image: "../img/Lineage 2_Revolution_logo.png",
+    background: "../img/Lineage 2_Revolution_BG2.png",
+    itemImage: "",
     nominal: [
       { jumlah: 1200, harga: 10000 },
       { jumlah: 2500, harga: 20000 },
@@ -423,12 +423,12 @@ const data = [
   },
   {
     id: 19,
-    nama: 'Lords Mobile',
-    perusahaan: 'IGG',
-    satuan: 'Gems',
-    image: '../img/Lords Mobile_logo.png',
-    background: '../img/Lords Mobile_BG2.png',
-    itemImage: '',
+    nama: "Lords Mobile",
+    perusahaan: "IGG",
+    satuan: "Gems",
+    image: "../img/Lords Mobile_logo.png",
+    background: "../img/Lords Mobile_BG2.png",
+    itemImage: "",
     nominal: [
       { jumlah: 800, harga: 10000 },
       { jumlah: 1800, harga: 20000 },
@@ -438,12 +438,12 @@ const data = [
   },
   {
     id: 20,
-    nama: 'Brave Frontier',
-    perusahaan: 'gumi Inc.',
-    satuan: 'Gems',
-    image: '../img/Brave Frontier_logo.png',
-    background: '../img/Brave Frontier_BG2.png',
-    itemImage: '',
+    nama: "Brave Frontier",
+    perusahaan: "gumi Inc.",
+    satuan: "Gems",
+    image: "../img/Brave Frontier_logo.png",
+    background: "../img/Brave Frontier_BG2.png",
+    itemImage: "",
     nominal: [
       { jumlah: 24, harga: 10000 },
       { jumlah: 50, harga: 20000 },
@@ -453,12 +453,12 @@ const data = [
   },
   {
     id: 21,
-    nama: 'Summoners War',
-    perusahaan: 'Com2uS',
-    satuan: 'Crystals',
-    image: '../img/Summoners War_logo.png',
-    background: '../img/Summoners War_BG1.png',
-    itemImage: '',
+    nama: "Summoners War",
+    perusahaan: "Com2uS",
+    satuan: "Crystals",
+    image: "../img/Summoners War_logo.png",
+    background: "../img/Summoners War_BG1.png",
+    itemImage: "",
     nominal: [
       { jumlah: 100, harga: 10000 },
       { jumlah: 300, harga: 30000 },
@@ -468,12 +468,12 @@ const data = [
   },
   {
     id: 22,
-    nama: 'Idle Heroes',
-    perusahaan: 'DHGames',
-    satuan: 'Gems',
-    image: '../img/Idle Heroes_logo.png',
-    background: '../img/Idle Heroes_BG2.png',
-    itemImage: '',
+    nama: "Idle Heroes",
+    perusahaan: "DHGames",
+    satuan: "Gems",
+    image: "../img/Idle Heroes_logo.png",
+    background: "../img/Idle Heroes_BG2.png",
+    itemImage: "",
     nominal: [
       { jumlah: 500, harga: 10000 },
       { jumlah: 1100, harga: 20000 },
@@ -483,12 +483,12 @@ const data = [
   },
   {
     id: 23,
-    nama: 'Saint Seiya: Awakening',
-    perusahaan: 'Yoozoo Games',
-    satuan: 'Diamonds',
-    image: '../img/Saint Seiya_Awakening_logo.png',
-    background: '../img/Saint Seiya_Awakening_BG2.png',
-    itemImage: '',
+    nama: "Saint Seiya: Awakening",
+    perusahaan: "Yoozoo Games",
+    satuan: "Diamonds",
+    image: "../img/Saint Seiya_Awakening_logo.png",
+    background: "../img/Saint Seiya_Awakening_BG2.png",
+    itemImage: "",
     nominal: [
       { jumlah: 100, harga: 10000 },
       { jumlah: 300, harga: 30000 },
@@ -498,12 +498,12 @@ const data = [
   },
   {
     id: 24,
-    nama: 'Dota 2',
-    perusahaan: 'Valve',
-    satuan: 'Steam Wallet',
-    image: '../gambar22/Dota 2_logo.jpg',
-    background: '../gambar22/Dota 2_BG1.jpg',
-    itemImage: '',
+    nama: "Dota 2",
+    perusahaan: "Valve",
+    satuan: "Steam Wallet",
+    image: "../gambar22/Dota 2_logo.jpg",
+    background: "../gambar22/Dota 2_BG1.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 5, harga: 499 },
       { jumlah: 10, harga: 999 },
@@ -515,12 +515,12 @@ const data = [
   },
   {
     id: 25,
-    nama: 'Counter-Strike: Global Offensive (CS: GO)',
-    perusahaan: 'Valve',
-    satuan: 'Steam Wallet',
-    image: '../gambar22/CSGO_logo.jpg',
-    background: '../gambar22/CSGO_BG1.jpg',
-    itemImage: '',
+    nama: "Counter-Strike: Global Offensive (CS: GO)",
+    perusahaan: "Valve",
+    satuan: "Steam Wallet",
+    image: "../gambar22/CSGO_logo.jpg",
+    background: "../gambar22/CSGO_BG1.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 5, harga: 499 },
       { jumlah: 10, harga: 999 },
@@ -532,12 +532,12 @@ const data = [
   },
   {
     id: 26,
-    nama: 'League of Legends',
-    perusahaan: 'Riot Games',
-    satuan: 'RP (Riot Points)',
-    image: '../gambar22/League of Legends_logo.jpg',
-    background: '../gambar22/League of Legends_BG1.jpg',
-    itemImage: '../img/LOL_RP.png',
+    nama: "League of Legends",
+    perusahaan: "Riot Games",
+    satuan: "RP (Riot Points)",
+    image: "../gambar22/League of Legends_logo.jpg",
+    background: "../gambar22/League of Legends_BG1.jpg",
+    itemImage: "../img/LOL_RP.png",
     nominal: [
       { jumlah: 650, harga: 5000 },
       { jumlah: 1380, harga: 10000 },
@@ -549,12 +549,12 @@ const data = [
   },
   {
     id: 27,
-    nama: 'Fortnite',
-    perusahaan: 'Epic Games',
-    satuan: 'V-Bucks',
-    image: '../gambar22/Fortnite_logo.jpg',
-    background: '../gambar22/Fortnite_BG2.jpg',
-    itemImage: '',
+    nama: "Fortnite",
+    perusahaan: "Epic Games",
+    satuan: "V-Bucks",
+    image: "../gambar22/Fortnite_logo.jpg",
+    background: "../gambar22/Fortnite_BG2.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 1000, harga: 799 },
       { jumlah: 2800, harga: 2399 },
@@ -566,12 +566,12 @@ const data = [
   },
   {
     id: 28,
-    nama: 'Valorant',
-    perusahaan: 'Riot Games',
-    satuan: 'Valorant Points',
-    image: '../gambar22/Valorant_logo.jpg',
-    background: '../gambar22/Valorant_BG1.jpg',
-    itemImage: '../img/VALORANT_Points.png',
+    nama: "Valorant",
+    perusahaan: "Riot Games",
+    satuan: "Valorant Points",
+    image: "../gambar22/Valorant_logo.jpg",
+    background: "../gambar22/Valorant_BG1.jpg",
+    itemImage: "../img/VALORANT_Points.png",
     nominal: [
       { jumlah: 475, harga: 499 },
       { jumlah: 1000, harga: 999 },
@@ -582,12 +582,12 @@ const data = [
   },
   {
     id: 29,
-    nama: 'Apex Legends',
-    perusahaan: 'Respawn Entertainment',
-    satuan: 'Apex Coins',
-    image: '../gambar22/Apex Legends_logo.jpg',
-    background: '../gambar22/Apex Legends_BG2.jpg',
-    itemImage: '',
+    nama: "Apex Legends",
+    perusahaan: "Respawn Entertainment",
+    satuan: "Apex Coins",
+    image: "../gambar22/Apex Legends_logo.jpg",
+    background: "../gambar22/Apex Legends_BG2.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 1000, harga: 999 },
       { jumlah: 2150, harga: 1999 },
@@ -598,12 +598,12 @@ const data = [
   },
   {
     id: 30,
-    nama: 'World of Warcraft',
-    perusahaan: 'Blizzard Entertainment',
-    satuan: 'WoW Tokens',
-    image: '../gambar22/World of Warcraft_logo.jpg',
-    background: '../gambar22/World of Warcraft_BG2.jpg',
-    itemImage: '',
+    nama: "World of Warcraft",
+    perusahaan: "Blizzard Entertainment",
+    satuan: "WoW Tokens",
+    image: "../gambar22/World of Warcraft_logo.jpg",
+    background: "../gambar22/World of Warcraft_BG2.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 1, harga: 20000 },
       { jumlah: 2, harga: 40000 },
@@ -614,12 +614,12 @@ const data = [
   },
   {
     id: 31,
-    nama: 'Overwatch',
-    perusahaan: 'Blizzard Entertainment',
-    satuan: 'Credits',
-    image: '../gambar22/OverWatch_logo.jpg',
-    background: '../gambar22/OverWatch_BG2.jpg',
-    itemImage: '',
+    nama: "Overwatch",
+    perusahaan: "Blizzard Entertainment",
+    satuan: "Credits",
+    image: "../gambar22/OverWatch_logo.jpg",
+    background: "../gambar22/OverWatch_BG2.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 2, harga: 200 },
       { jumlah: 5, harga: 500 },
@@ -630,12 +630,12 @@ const data = [
   },
   {
     id: 32,
-    nama: 'Final Fantasy XIV',
-    perusahaan: 'Square Enix',
-    satuan: 'Mog Station Points',
-    image: '../gambar22/Final Fantasy XIV_logo.jpg',
-    background: '../gambar22/Final Fantasy XIV_BG1.jpg',
-    itemImage: '',
+    nama: "Final Fantasy XIV",
+    perusahaan: "Square Enix",
+    satuan: "Mog Station Points",
+    image: "../gambar22/Final Fantasy XIV_logo.jpg",
+    background: "../gambar22/Final Fantasy XIV_BG1.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 1000, harga: 999 },
       { jumlah: 2000, harga: 1999 },
@@ -646,12 +646,12 @@ const data = [
   },
   {
     id: 33,
-    nama: 'Rainbow Six Siege',
-    perusahaan: 'Ubisoft',
-    satuan: 'R6 Credits',
-    image: '../gambar22/Rainbow Six Siege_logo.jpg',
-    background: '../gambar22/Rainbow Six Siege_BG2.jpg',
-    itemImage: '',
+    nama: "Rainbow Six Siege",
+    perusahaan: "Ubisoft",
+    satuan: "R6 Credits",
+    image: "../gambar22/Rainbow Six Siege_logo.jpg",
+    background: "../gambar22/Rainbow Six Siege_BG2.jpg",
+    itemImage: "",
     nominal: [
       { jumlah: 600, harga: 499 },
       { jumlah: 1200, harga: 999 },
@@ -661,14 +661,14 @@ const data = [
     ],
   },
 ];
-const mobileTab = document.querySelector('.operations__Mobile');
-const pcTab = document.querySelector('.operations__PC');
-const allTab = document.querySelector('.operations__All');
+const mobileTab = document.querySelector(".operations__Mobile");
+const pcTab = document.querySelector(".operations__PC");
+const allTab = document.querySelector(".operations__All");
 
 const renderMobile = function () {
   const markup1 = data
-    .filter(data => data.id <= 12)
-    .map(data => {
+    .filter((data) => data.id <= 12)
+    .map((data) => {
       return `
          <a href="Topup.html#${data.id}">
                 <img src="${data.image}" alt="${data.nama}"
@@ -679,11 +679,11 @@ const renderMobile = function () {
                   ><span class="game-title__company">${data.perusahaan}</span>
                 </div></a>`;
     })
-    .join('');
+    .join("");
 
   const markup2 = data
-    .filter(data => data.id > 12 && data.id <= 23)
-    .map(data => {
+    .filter((data) => data.id > 12 && data.id <= 23)
+    .map((data) => {
       return `
          <a href="Topup.html#${data.id}">
                 <img src="${data.image}" alt="${data.nama}"
@@ -694,20 +694,20 @@ const renderMobile = function () {
                   ><span class="game-title__company">${data.perusahaan}</span>
                 </div></a>`;
     })
-    .join('');
+    .join("");
 
   mobileTab
-    .querySelector('.operations__content')
-    .insertAdjacentHTML('afterbegin', markup1);
+    .querySelector(".operations__content")
+    .insertAdjacentHTML("afterbegin", markup1);
   mobileTab
-    .querySelector('.operations__content--more')
-    .insertAdjacentHTML('afterbegin', markup2);
+    .querySelector(".operations__content--more")
+    .insertAdjacentHTML("afterbegin", markup2);
 };
 
 const renderPC = function () {
   const markup = data
-    .filter(data => data.id > 23)
-    .map(data => {
+    .filter((data) => data.id > 23)
+    .map((data) => {
       return `
          <a href="Topup.html#${data.id}">
                 <img src="${data.image}" alt="${data.nama}"
@@ -718,17 +718,17 @@ const renderPC = function () {
                   ><span class="game-title__company">${data.perusahaan}</span>
                 </div></a>`;
     })
-    .join('');
+    .join("");
 
   pcTab
-    .querySelector('.operations__content')
-    .insertAdjacentHTML('afterbegin', markup);
+    .querySelector(".operations__content")
+    .insertAdjacentHTML("afterbegin", markup);
 };
 
 const renderAll = function () {
   const markup1 = data
-    .filter(data => data.id <= 12)
-    .map(data => {
+    .filter((data) => data.id <= 12)
+    .map((data) => {
       return `
          <a href="Topup.html#${data.id}">
                 <img src="${data.image}" alt="${data.nama}"
@@ -739,10 +739,10 @@ const renderAll = function () {
                   ><span class="game-title__company">${data.perusahaan}</span>
                 </div></a>`;
     })
-    .join('');
+    .join("");
   const markup2 = data
-    .filter(data => data.id > 12)
-    .map(data => {
+    .filter((data) => data.id > 12)
+    .map((data) => {
       return `
          <a href="Topup.html#${data.id}">
                 <img src="${data.image}" alt="${data.nama}"
@@ -753,14 +753,14 @@ const renderAll = function () {
                   ><span class="game-title__company">${data.perusahaan}</span>
                 </div></a>`;
     })
-    .join('');
+    .join("");
 
   allTab
-    .querySelector('.operations__content')
-    .insertAdjacentHTML('afterbegin', markup1);
+    .querySelector(".operations__content")
+    .insertAdjacentHTML("afterbegin", markup1);
   allTab
-    .querySelector('.operations__content--more')
-    .insertAdjacentHTML('afterbegin', markup2);
+    .querySelector(".operations__content--more")
+    .insertAdjacentHTML("afterbegin", markup2);
 };
 
 const init = function () {
@@ -769,47 +769,47 @@ const init = function () {
   renderPC();
 };
 
-window.addEventListener('load', init);
+window.addEventListener("load", init);
 
 /////////////////////////////////////////////////////////
-const btnsShow = document.querySelectorAll('.btn__show');
-const btnOperations = document.querySelector('.operations__btn');
+const btnsShow = document.querySelectorAll(".btn__show");
+const btnOperations = document.querySelector(".operations__btn");
 
 const toggleBtnShow = function (e) {
-  const click = e.target.closest('.operations__active');
+  const click = e.target.closest(".operations__active");
 
   const btns = e.target
-    .closest('.operations__content-box')
-    .querySelectorAll('.btn__show');
+    .closest(".operations__content-box")
+    .querySelectorAll(".btn__show");
 
-  btns.forEach(btn => btn.classList.toggle('btn__show--active'));
+  btns.forEach((btn) => btn.classList.toggle("btn__show--active"));
 
   // btnsShow.forEach(btn => btn.classList.toggle('btn__show--active'));
   click
-    .querySelector('.operations__content--more')
-    .classList.toggle('operations__content--more-active');
+    .querySelector(".operations__content--more")
+    .classList.toggle("operations__content--more-active");
 };
 
 const operationsTab = function (e) {
-  const clicked = e.target.closest('.btn');
+  const clicked = e.target.closest(".btn-list-game");
 
   if (!clicked) return;
   const siblings = e.target
-    .closest('.operations__btn')
-    .querySelectorAll('.btn');
+    .closest(".operations__btn")
+    .querySelectorAll(".btn-list-game");
   const dataset = clicked.dataset.list;
   console.log(dataset);
-  const operationsTab = document.querySelectorAll('.operations__content-box');
+  const operationsTab = document.querySelectorAll(".operations__content-box");
 
-  siblings.forEach(el => el.classList.remove('btn__operations--active'));
-  clicked.classList.add('btn__operations--active');
+  siblings.forEach((el) => el.classList.remove("btn__operations--active"));
+  clicked.classList.add("btn__operations--active");
 
-  operationsTab.forEach(el => el.classList.remove('operations__active'));
+  operationsTab.forEach((el) => el.classList.remove("operations__active"));
   document
     .querySelector(`.operations__${dataset}`)
-    .classList.add('operations__active');
+    .classList.add("operations__active");
 };
 
-btnOperations.addEventListener('click', operationsTab);
+btnOperations.addEventListener("click", operationsTab);
 
-btnsShow.forEach(e => e.addEventListener('click', toggleBtnShow));
+btnsShow.forEach((e) => e.addEventListener("click", toggleBtnShow));

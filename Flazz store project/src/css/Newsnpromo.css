@@ -28,7 +28,7 @@ body {
 }
 
 .search-filter {
-  padding-top: 15rem;
+  padding-top: 4rem;
   padding-left: 5rem;
 }
 
@@ -46,6 +46,102 @@ input {
   border-radius: 2rem;
   background-color: var(--color-tertiary);
   color: #fff;
+}
+nav {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: var(--color-secondary);
+  display: flex;
+  align-items: center;
+}
+
+.logo-flazz {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.logo-name {
+  width: 85px;
+  height: 45px;
+}
+
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+
+nav .navbar .menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .menu li {
+  margin: 0 20px;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 12px 5px;
+  transition: padding 0.3s, border-bottom 0.2s;
+}
+
+.navbar .menu li a:hover {
+  border-bottom: 2.5px solid var(--color-main);
+  padding: 12px 5px;
+}
+
+nav .button-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
+}
+
+button {
+  border: none;
+  padding: 5px 25px;
+  font-size: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: var(--color-main);
+}
+
+.search-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.login-button:hover {
+  background-color: var(--color-main);
+  opacity: 75%;
+}
+
+.search-button:hover {
+  border-color: #f3f3f3;
+  opacity: 75%;
 }
 
 input::placeholder {

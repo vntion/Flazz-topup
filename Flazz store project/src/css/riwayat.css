@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&display=swap");
 :root {
   --color-bg: #121626;
   --color-main: #763edd;
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   box-sizing: border-box;
   min-height: 100vh;
   font-size: 1.6rem;
@@ -26,6 +26,102 @@ body {
   line-height: 1.4;
   background: var(--color-bg);
   position: relative;
+}
+nav {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: var(--color-secondary);
+  display: flex;
+  align-items: center;
+}
+
+.logo-flazz {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.logo-name {
+  width: 85px;
+  height: 45px;
+}
+
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+
+nav .navbar .menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .menu li {
+  margin: 0 20px;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 12px 5px;
+  transition: padding 0.3s, border-bottom 0.2s;
+}
+
+.navbar .menu li a:hover {
+  border-bottom: 2.5px solid var(--color-main);
+  padding: 12px 5px;
+}
+
+nav .button-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
+}
+
+button {
+  border: none;
+  padding: 5px 25px;
+  font-size: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: var(--color-main);
+}
+
+.search-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.login-button:hover {
+  background-color: var(--color-main);
+  opacity: 75%;
+}
+
+.search-button:hover {
+  border-color: #f3f3f3;
+  opacity: 75%;
 }
 
 .search-container {
