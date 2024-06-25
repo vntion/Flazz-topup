@@ -56,7 +56,7 @@ input::placeholder {
 .filter {
   padding-left: 4rem;
 }
-button {
+.filter button {
   margin: 5rem 1rem;
   padding: 1.2rem 0rem;
   font-size: 1.4rem;
@@ -69,7 +69,7 @@ button {
   transition: background 0.3s ease;
 }
 
-button:hover {
+.filter button:hover {
   background: #5b32a3;
 }
 
@@ -81,7 +81,6 @@ button:hover {
 .content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 5rem;
   gap: 2rem;
 }
@@ -127,4 +126,23 @@ button:hover {
 .content-info p:first-child {
   font-weight: bold;
   font-size: 1.3rem;
+}
+.load-more {
+  text-align: center;
+}
+.load-more button {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  background: var(--color-main);
+  color: #fff;
+  cursor: pointer;
+  width: 11rem;
+  transition: background 0.3s ease;
+}
+
+.load-more:hover {
+  background: #5b32a3;
 }
