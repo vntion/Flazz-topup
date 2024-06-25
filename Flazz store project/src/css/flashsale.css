@@ -24,8 +24,8 @@ body{
 .banner {
     color: #E6E6E6;
     display: flex;
-    align-items: center; /* Vertically centers the items */
-    justify-content: space-between; /* Adds space between the items */
+    align-items: center;
+    justify-content: space-between; 
     position: relative;
     left: 100px;
     height: 60px;
@@ -61,11 +61,6 @@ body{
     position: relative;
     top: 34px;
 }
-
-/* .social-media-links a:nth-child(2),
-.social-media-links a:nth-child(5) {
-    justify-self: center;
-} */
 .item a{
     display: flex;
     width: 264px;
@@ -91,9 +86,3 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
-.item .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
