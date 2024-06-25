@@ -5,6 +5,7 @@
   --color-secondary: #242c48;
   --color-tertiary: #303b61;
   --color-input: #aaacb3;
+  --tw-shadow: 0 2.5rem 5rem -1.2rem rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -25,6 +26,11 @@ body {
   font-size: 1.6rem;
   color: #fff;
   line-height: 1.4;
+  position: relative;
+}
+
+.shadow {
+  box-shadow: var(--tw-shadow) !important;
 }
 
 .img-hero {
@@ -41,6 +47,7 @@ body {
   object-fit: fill;
 }
 
+/* Judul Game */
 .game-title {
   display: flex;
   justify-content: center;
@@ -55,7 +62,11 @@ body {
   display: block;
   border-radius: 1rem;
   transform: rotateY(20deg);
-  box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.4); */
+}
+
+.game-title__info {
+  align-self: flex-end;
 }
 
 .game-title__name {
@@ -69,6 +80,36 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.game-title__contact {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -1rem;
+  margin-top: 2rem;
+}
+
+.game-title__contact--row {
+  display: flex;
+  flex: 0 0 16rem;
+  align-items: center;
+  margin-left: var(--ml);
+}
+
+.game-title__contact span {
+  font-size: 1.3rem;
+}
+
+.game-title__contact--row:not(:first-child) {
+  gap: 0.5rem;
+}
+
+.game-title__contact svg {
+  width: var(--w);
+  height: var(--h);
+  fill: var(--f);
+  margin-right: var(--mr);
+}
+
+/* topup */
 .topup {
   padding: 2rem;
   display: flex;
@@ -97,21 +138,51 @@ body {
   border: none;
   cursor: pointer;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topup__text-p {
+  font-weight: 700;
+}
+
+.topup__icon {
+  fill: #fff;
+  width: 2rem;
+  height: 2rem;
+  transform: rotate(90deg);
+}
+
+.topup__icon.rotate {
+  transform: rotate(270deg);
 }
 
 .topup__step {
   background: #303b61;
   padding: 1.2rem;
   border-radius: 1rem;
+  display: block;
+}
+
+.topup__step.hidden {
+  display: none;
 }
 
 .topup__step-text {
   display: inline-block;
   margin-bottom: 1rem;
+  font-size: smaller;
 }
 
-.topup__step-list {
-  padding-left: 2rem;
+.list {
+  counter-reset: list-number;
+  margin-left: 1rem;
+  font-size: smaller;
+}
+
+.list__item::before {
+  counter-increment: list-number;
+  content: counter(list-number) '. ';
 }
 
 .form {
@@ -192,6 +263,40 @@ input[type='number']::-webkit-inner-spin-button {
 /* Items topup */
 .form__items--title {
   margin-top: -2rem;
+  margin-bottom: 1rem;
+}
+
+.form__items--list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.form__items--item {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1.3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.form__items--item p {
+  font-size: smaller;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.form__items--item p:first-child {
+  margin-bottom: 0.3rem;
+}
+
+.form__items--item img {
+  display: block;
+  width: 4rem;
+  height: 4rem;
 }
 
 /* Quantity */
@@ -273,6 +378,7 @@ input[type='number']::-webkit-inner-spin-button {
   color: #fff;
   border-radius: 0.5rem;
   flex: 1;
+  cursor: pointer;
 }
 
 .form__input::-webkit-input-placeholder {
@@ -283,9 +389,12 @@ input[type='number']::-webkit-inner-spin-button {
 .form__row-cart {
   background: none !important;
   border-radius: 0 !important;
-  position: sticky;
-  bottom: 1.5rem;
   background-color: var(--color-bg) !important;
+}
+
+.form__row-cart.active {
+  position: sticky;
+  bottom: 1rem;
 }
 
 .form__cart {
@@ -308,10 +417,24 @@ input[type='number']::-webkit-inner-spin-button {
 .form__cart-item img {
   display: block;
   width: 7rem;
+  height: 7rem;
   border-radius: 6px;
   margin-right: 1rem;
 }
 
+.cart__price {
+  color: #facc15;
+}
+
+.cart__nominal,
+.cart__qty {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.form__cart-details--row:first-child {
+  margin-bottom: 0.4rem;
+}
 .btn-submit {
   outline: none;
   border: none;
@@ -321,4 +444,30 @@ input[type='number']::-webkit-inner-spin-button {
   color: #fff;
   padding: 1rem 0;
   cursor: pointer;
+}
+
+/* Message */
+.message {
+  position: fixed;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%);
+
+  font-size: 1.2rem;
+  padding: 1rem;
+  background: #2c303a;
+  border: 1px solid #47cf73;
+  border-radius: 1rem;
+  animation: fade-in 4s infinite ease-out;
+  animation-play-state: paused;
+}
+
+@keyframes fade-in {
+  10%,
+  90% {
+    top: 1%;
+  }
+  100% {
+    top: -10%;
+  }
 }
