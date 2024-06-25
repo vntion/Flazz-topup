@@ -99,6 +99,10 @@ nav .button-box {
   gap: 15px;
   padding-right: 20px;
 }
+.a-login {
+  color: #fff;
+  text-decoration: none;
+}
 
 button {
   border: none;

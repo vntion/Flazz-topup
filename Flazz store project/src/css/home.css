@@ -108,6 +108,10 @@ button {
 .login-button {
   background-color: var(--color-main);
 }
+.a-login {
+  color: #fff;
+  text-decoration: none;
+}
 
 .search-button {
   background-color: transparent;
